@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 2</title>
+    <style>
+                table {
+                        width: 100%;
+                        height: 100%;
+                }
+                table,
+                th,
+                td {
+                        border: 2px solid black;
+                        border-collapse: collapse;
+                        padding: 0px;
+                }
+                header{
+                    border: 4px solid rgba(63, 121, 255, 0.837);
+                    background-color: skyblue;
+                    height: 25px;   
+                }
+                .Path
+                {
+                    background-color: pink;
+                    border: 4px solid rgb(255, 129, 150);
+                    height: 25px;
+                }
+                .Docktop{
+                    background-color: yellow;
+                    border: 4px solid yellow;
+                    height: 25px;
+                }
+                .Content{
+                    background-color: gray;
+                    border: 4px solid black;
+                    height: 250px;
+                    width: 80%;
+                }
+                .Dockright
+                {
+                    background-color: lightgreen;
+                    border: 4px solid green;
+                    height: 50px;
+                }
+                .footer
+                {
+                    background-color: rgb(255, 199, 95);
+                    border: 4px solid orange;
+                    height: 25px;
+                }
+    </style>
+<body>
+    <table>
+        <tr>
+            <th colspan="4">
+                    <header>
+                            Header
+                    </header>
+            </th>
+        </tr>
+        <tr>
+            <td colspan="4" class="Path" align="center">Path</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="Docktop" align="center">DockTop</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="Content" align="center">Content</td>
+            <td colspan="3" class="Dockright" align="center">Dockright</td>
+        </tr>
+        <tr>
+            <td colspan="5" class="footer" align="center">
+                <footer>
+                    Footer
+                </footer>
+            </td>
+        </tr>
+    </table><br><br>
+</body>
+</html>

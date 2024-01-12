@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Example 3</title>
+</head>
+<style>
+                table {
+                        width: 40%;
+                }
+                table,
+                th,
+                td {
+                        border: 2px solid black;
+                        border-collapse: collapse;
+                        padding: 0px;
+                }
+                header{
+                    border: 4px solid rgba(63, 121, 255, 0.837);
+                    background-color: skyblue;
+                    height: 25px;   
+                } 
+                .Path
+                {
+                    background-color: pink;
+                    border: 4px solid rgb(255, 129, 150);
+                    height: 25px;
+                }
+                .footer
+                {
+                    background-color: rgb(255, 199, 95);
+                    border: 4px solid orange;
+                    height: 25px;
+                }
+                #Content
+                {
+                    background-color: gray;
+                    border: 2px solid black;
+                    height: 200px;
+                }
+                .Content1
+                {
+                    background-color: gray;
+                    border: 4px solid black;
+                    height: 100px;               
+                }
+                .Content2
+                {
+                    background-color: gray;
+                    border: 4px solid black;
+                    height: 100px;
+                }
+    </style>
+<body>
+        <table cellpadding="10px">
+            <tr>
+                <th colspan="4">
+                        <header>
+                                Header
+                        </header>
+                </th>
+            </tr>
+            <tr>
+                <td colspan="4" class="Path" align="center">Path</td>
+            </tr>
+            <tr id="Content">
+                <td align="center">Content</td>
+                <td align="center">Content</td>
+                <td align="center">Content</td>
+            </tr>
+            <tr>
+                <td colspan="5" class="footer" align="center">
+                    <footer>
+                        Footer
+                    </footer>
+                </td>
+            </tr>
+    </table><br><br>
+</body>
+</html>
