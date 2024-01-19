@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="hello.css">
     <title></title>
     <style>
                 table {
@@ -14,63 +15,48 @@
                         /* border: solid black; */
                         border-collapse: collapse;
                 }
-                header{
-                    /* border: 4px solid rgba(63, 121, 255, 0.837); */
-                    background-color: skyblue;
-                    height: 25px;
-                }
                 .footer
                 {
                     background-color: rgb(255, 199, 95);
                     border: 4px solid rgb(255, 166, 1);
                     height: 25px;
                 }
-                .table-1
-                {
-                    background-color:skyblue;
-                    height:35px;
+                h1{
+                    margin-bottom: 109px;
+                    text-align: center;
                 }
     </style>
 </head>
 <body>
     <table>
         <tr>
-            <td colspan="1"></td>
-            <th>
-                <header style="background-color: rgb(25, 255, 25); height:60px; width:100; border: solid black;">
+            <td style="width: 0%;"></td>
+            <th colspan="2">
+                <header style="background-color: rgb(25, 255, 25); height:60px; width:100; border: solid black; ">
                         Layout header - Top Navigation
                 </header>
             </th>
-        <tr>
-           <td>
-            <table class="table-1" >
-                <td colspan="1" align="center">Link-1</td>
-            </table>
-           </td>
         </tr>
-        <tr>
-           <td>
-            <table class="table-1"  >
-                <td colspan="1" align="center">Link-2</td>
+        <td colspan="2" style="border: solid black;">
+            <table>
+                <tr>
+                    <td style="background-color: rgb(29, 255, 229); width: 599x;">Link 1</td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgb(29, 255, 229); width: 25px;">Link 2</td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgb(29, 255, 229); width: 25px;">Link 3</td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgb(29, 255, 229);width: 25px;">Link 4</td>
+                </tr>
             </table>
-           </td>
-        </tr>
-        <tr >
-           <td>
-            <table  class="table-1">
-                <td colspan="1" align="center">Link-3</td>
-            </table>
-           </td>
-        </tr>
-        <tr >
-           <td>
-            <table class="table-1">
-                <td colspan="1" align="center">Link-4</td>
-            </table>
-           </td>
-        </tr>
-        <tr>
-            <td></td>
+        </td>
+            <td colspan="2" width="75%">
+                <header><h1>Hello.!!</h1></header>
+                <img src="nature.jpeg" alt="Nature" height="150px" width="150px">
+            </td>
         </tr>
     </table>
 </body>
