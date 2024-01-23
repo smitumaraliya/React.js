@@ -1,0 +1,17 @@
+.b1 {
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 15px 15px;
+  text-align: center;
+}
+.b1:hover {
+  background-color: #374151;
+}
+.b1:focus {
+    box-shadow: 10px 10px 5px gray;
+}

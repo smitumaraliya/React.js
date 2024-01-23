@@ -1,0 +1,29 @@
+.b2 {
+  align-items: center;
+  background-color:white;
+  border: 2px solid #111;
+  border-radius: 4px;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 11px;
+  height: 33px;
+  justify-content: center;
+  padding: 0 25px;
+  position: relative;
+}
+
+.b2:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  height: 33px;
+  width: 100%;
+  position: absolute;
+  transform: translate(8px, 8px);
+  transition: transform .5s ease-out;
+  z-index: -1;
+}
+
+.b2:hover:after {
+  transform: translate(0, 0);
+}
