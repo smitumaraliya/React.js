@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+}
+/* Css Pseudo Class */
+
+/*
+
+    :first-child
+    :first-of-type
+    :last-child
+    :last-of-type
+    :nth-child()
+    :nth-last-child()
+    :nth-last-of-type()
+    :nth-of-type()
+    :only-of-type
+    :only-child
+    :odd(3n)
+    :even(2n)
+    :not()
+    :where
+    :empty
+
+*/
+
+nav a:nth-child(1){
+    background-color:yellow;
+    color:red;
+}
+nav a:nth-child(4){
+    background-color:yellow;
+    color:red;
+}
+
+body > h1:nth-child(3)
+{
+    background-color:yellow;
+    color:red;
+}
+body > h1:nth-child(6)
+{
+    background-color:yellow;
+    color:red;
+}
+
+div > h1:nth-child(1){
+    background-color:yellow;
+    color:red;
+}
+div > h1:nth-child(2){
+    background-color:yellow;
+    color:red;
+}
+ul, li {
+    background-color:yellow;
+    color:red;
+}
+nav > h1{
+    background-color:yellow;
+    color:red;
+}
+.head{
+    background-color:yellow;
+    color:red;
+}
+/* .head h1::before:nth-child(3){
+    content: "";
+    background-color:yellow;
+    color:red;
+} */
+span p:nth-child(2){
+    background-color:yellow;
+    color:red;
+}
+.head ~ div > span {
+    background-color:yellow;
+    color:red;
+}
+/* .head > h1:nth-child(){
+    background-color:yellow;
+    color:red;
+} */
+/* :where(.box-2){
+    background-color: blue;
+} */
+
+/* h1:first-child{
+    background-color:yellow;
+    color:red;
+} */
+/* div:empty{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+} */
+
+
+/* attributes selector */
+
+/*
+    [attr]
+    [attr=value]
+    [attr~=value]
+    [attr|=value]
+    [attr^=value]
+    [attr$=value]
+    [attr*=value]
+
+*/
+/* 
+a[href="www.google.com"]{
+    background-color: yellow;
+}
+
+a[href="www.facebook.com"]{
+    background-color: red;
+}
+
+div[class*="x"]{
+    height: 100px;
+    background-color:green;
+    border:2px solid red;
+} */
+
+
+/* css pseudo element */
+
+
+/* css after and before */
+
+/* .box{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: relative;
+}
+
+.box::after{
+    content:"";
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    position: absolute;
+    z-index: -1;
+    bottom: -50px;
+    right: -50px;
+    opacity: 0.2;
+} */
+
+
+/* p::selection{
+    font-size: 50px;
+    color:blueviolet;
+    text-decoration: underline;
+    background-color: yellow;
+}*/

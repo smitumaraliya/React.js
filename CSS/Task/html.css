@@ -1,0 +1,87 @@
+a:first-child
+    {
+        color: red;
+        background-color: yellow;
+    }
+
+    a:nth-child(4)
+    {
+        color: red;
+        background-color: yellow;
+    }
+
+    /* h1:nth-last-of-type(4)
+    {
+        color: red;
+        background-color: yellow;
+    } */
+
+    /* h1:nth-of-type(2)
+    {
+        color: red;
+        background-color: yellow;
+    } */
+    input:last-of-type
+    {
+        color: red;
+        background-color: yellow;
+    } 
+
+    div:nth-child(2)
+    {
+        color: red;
+        background-color: yellow;
+    }
+
+    /* div h1:nth-child(2){
+        color: red;
+        background-color: yellow;
+    } */
+    ul li h1:first-child{
+        color: red;
+        background-color: yellow;
+    }
+/* 
+    h1:nth-last-of-type(4)
+    {
+        color: red;
+        background-color: yellow;
+    } */
+
+    h1:nth-child(6)
+    {
+        color: red;
+        background-color: yellow; 
+    }
+
+    nav h1:last-child
+    {
+        color: red;
+        background-color: yellow;
+    }
+
+    .heading:first-child
+    {
+        color: red;
+        background-color: yellow;
+    }
+
+    .head{
+        color: red;
+        background-color: yellow;
+    }
+
+    h1:nth-of-type(9){
+        color: red;
+        background-color: yellow;
+    }
+
+    span p:nth-last-child(1){
+        color: red;
+        background-color: yellow;
+    }
+
+    div .h1{
+        color: red;
+        background-color: yellow;
+    }

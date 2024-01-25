@@ -61,12 +61,13 @@
 
 /* .box{
     height: 200px;
+    border-radius: 20%;
+}
+.box-1{
     background-color: yellow;
-    width: 200px;
-} */
-/* .box-1{
 }
 .box-2{
+    width: 200px;
 } */
 
 /*css id selector*/
@@ -98,7 +99,8 @@ background-color: red;
 
 /* child selector */
 
-/* .maindiv > .box > {
+/* .a{
+    background-color: black;
 } */
 
 
@@ -106,8 +108,8 @@ background-color: red;
 /* adjuacent sibling selector*/
 
 
-/* div + p{
-    background-color: green;
+/* div + b{
+    background-color: aqua;
 } */
 
 
