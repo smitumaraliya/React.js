@@ -1,0 +1,54 @@
+*{
+    text-align: left;
+}
+
+.maindiv{
+    display: flex;
+    height: 585px;
+    background-color: black;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.card1{
+    margin: 100px;
+    height: fit-content;
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden; 
+}
+.mainimg1{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+img:hover{
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+h1:hover{
+    position: relative;
+    overflow: hidden;
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+p{
+    position: absolute;
+    color:yellow;
+    top: 10px;
+    left: 10px;
+}
+
+h1{
+    position: absolute;
+    color: cyan;
+    top: 40px;
+    left: 10px;
+    font-size: 20px;
+    text-shadow: 20px 15px 10px black;
+}

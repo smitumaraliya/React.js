@@ -1,0 +1,9 @@
+.maindiv{
+    /* flex-wrap: wrap; */
+    align-self: center;
+    position: static;
+    justify-content: flex-end;
+    flex-direction: column;
+    /* text-align: right; */
+    background-color: aqua;
+}
