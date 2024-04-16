@@ -23,6 +23,9 @@ body{
 
 */
 
+h1:first-child{
+    background-color: aqua;
+}
 /* :where(.box-2){
     background-color: blue;
 } */

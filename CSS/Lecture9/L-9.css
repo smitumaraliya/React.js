@@ -228,7 +228,7 @@ div{
     /* overflow: visible; */
     /* overflow: scroll; */
     /* overflow-y: hidden; */
-    /* overflow: inherit; */
+    overflow: inherit;
 }
 
 

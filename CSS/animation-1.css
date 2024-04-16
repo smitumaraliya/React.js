@@ -1,0 +1,13 @@
+.animation-1{
+    height: 150px;
+    width: 700px;
+    margin:15%;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation-1:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}

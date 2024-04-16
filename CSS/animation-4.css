@@ -1,0 +1,109 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.main {
+   position: relative;
+   height: 100vh;
+}
+
+
+.Cloud {
+   position: absolute;
+   top: 0;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+
+.C1 {
+   animation-name: r1;
+   animation-duration: 4s;
+
+}
+
+.C2 {
+   animation-name: r2;
+   animation-duration: 6s;
+
+}
+
+.C3 {
+   animation-name: r3;
+   animation-duration: 4s;
+
+}
+
+.C4 {
+   animation-name: r4;
+   animation-duration: 4s;
+
+}
+
+@keyframes r1 {
+   from {
+      transform: translate(-200px);
+   }
+
+   to {
+      transform: translate(1600px);
+   }
+}
+
+@keyframes r2 {
+   from {
+      transform: translateX(-600px);
+   }
+
+   to {
+      transform: translateX(1400px);
+   }
+}
+
+.maindiv {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   inset: 0;
+}
+
+.maindiv img{
+   bottom: 0;
+position: absolute;
+}
+
+.Sun {
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   background-color: rgb(255, 255, 105);
+   position: absolute;
+   left: 0;
+   right: -300px;
+   margin: auto;
+   z-index: -1;
+   transform: translateY(350px);
+   animation-name: Topper;
+   animation-duration: 7s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes Topper {
+   0% {
+      transform: translateY(500px);
+      opacity: 0.7;
+   }
+
+   50% {
+      transform: translateY(0px);
+      opacity: 0.9;
+   }
+
+   100% {
+      transform: translateY(-350px);
+      opacity: 1;
+   }
+}

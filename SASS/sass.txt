@@ -1,0 +1,11 @@
+npm i -g sass
+
+sass --watch sass/main.scss css/style.css
+
+@forward
+@import
+@use
+	@mixin
+	@include
+	@content
+@extend

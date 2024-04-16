@@ -1,0 +1,19 @@
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @forward 'variables/color';
+ *   | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   sass\_variables.scss 1:1  @import
+ *   sass\_style.scss 1:9      @use
+ *   sass\main.scss 1:1        root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @forward 'variables/color';\a   \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\_variables.scss 1:1  @import\a   sass\\_style.scss 1:9      @use\a   sass\\main.scss 1:1        root stylesheet";
+}

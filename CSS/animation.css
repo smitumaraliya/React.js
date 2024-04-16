@@ -1,0 +1,33 @@
+.animation{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    animation-name: animation;
+    background-color: blueviolet;
+    margin: 100px;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    overflow: hidden;
+    animation-iteration-count: infinite;
+}
+    @keyframes animation{
+    0%{
+        transform: translate(0px);
+    }
+    50%{
+        border: 50px;
+        border: 20px solid black;
+        transform: translate(450px);
+        position: fixed;
+    }
+    100%{
+        transform: translate(900px);
+    }
+}
+
+.animation-1{
+    height: 150px;
+    width: 100%;
+    background-color: blueviolet;
+    position: fixed;
+}
