@@ -6,13 +6,17 @@ let dom1 = document.getElementById('demo')
 
 console.log(dom1);
 
-let dom2 = document.getElementById('dome').id
+let dom2 = document.getElementById('demo').id
 
 console.log(dom2);
 
 let dom3 = document.getElementById('demo').className
 
 console.log(dom3);
+
+let dom11 = document.getElementById('para').style.color = "red"
+
+console.log(dom11);
 
 /* Style */
 
@@ -66,3 +70,32 @@ let data4 = document.querySelector('input[type="password"]')
 console.log(data4);
 
 data4.style.backgroundColor = "purple"
+
+
+/* Javascript DOM new Element */
+
+/*
+ createElement
+ textContent
+ appendChild
+*/
+
+let element = document.createElement("marquee")
+
+element.setAttribute("bgcolor", "green")
+element.setAttribute("direction", "down")
+element.textContent = "Hello, Javascript!"
+
+document.body.appendChild(element)
+
+let image = document.createElement("img");
+
+image.setAttribute("src", "https://picsum.photos/200/300")
+
+image.setAttribute("alt", "imageOfAnimal")
+image.setAttribute("height", "250px")
+image.setAttribute("width", "250px")
+
+document.body.appendChild(image)
+
+console.log(image);
